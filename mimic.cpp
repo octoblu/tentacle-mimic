@@ -10,6 +10,6 @@ static const char token[] = "09fee3756f02154bb388b81b4c43cca263015085";
 int main (int argc, char *argv[])
 {
   StdioStream myStream;
-  std::cout << "Hello World " << myStream.getInt();
+  std::cout << "Hello World " << myStream.available();
   return 0;
 }

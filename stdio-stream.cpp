@@ -1,8 +1,5 @@
 #include "stdio-stream.h"
 
-StdioStream::StdioStream() {
-}
-
-int StdioStream::getInt() {
+int StdioStream::available() {
   return 5;
 }
